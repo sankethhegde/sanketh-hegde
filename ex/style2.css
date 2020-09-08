@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:#eee;
+}
+.wrapper{
+	margin: 0 auto;
+	width:1000px;
+}
+nav{
+	width:100%;
+	hight:100px;
+	background-color:#fff;
+}
+ul{
+	margin:0px;
+}
+ul li{
+	list-style: none;
+	display:inline-table;
+	float:left;
+	line-height:100px;
+}
+.img-hi{
+	width: 100%;
+	height: 800px;
+	background-image:url(img/hello.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center left;
+}
+.img-hi:hover{
+	background-size: 100%;
+}
+ul li a{
+	display:block;
+	text-decoration:none;
+	font-size:14px;
+	font-family:arial;
+	padding:0 20px;
+}
